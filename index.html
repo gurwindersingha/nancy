@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NANCY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>NANCY</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#letter">Love Letter</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Write about your love story here...</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/WhatsApp Image 2024-04-16 at 6.12.15 PM (1).jpeg" alt="Image 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/WhatsApp Image 2024-04-16 at 6.12.15 PM.jpeg" alt="Image 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/WhatsApp Image 2024-04-16 at 6.12.16 PM (1).jpeg" alt="Image 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/WhatsApp Image 2024-04-16 at 6.12.16 PM.jpeg" alt="Image 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="letter">
+        <h2>Love Letter Generator</h2>
+        <textarea id="loveLetter" rows="5" placeholder="Write your love letter here..."></textarea>
+        <button onclick="generateLoveLetter()">Generate Love Letter</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Our Love Story</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
